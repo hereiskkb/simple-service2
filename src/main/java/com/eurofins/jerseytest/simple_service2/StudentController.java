@@ -28,7 +28,7 @@ public class StudentController {
     }
 	
 	@POST
-	@Path('/{id}')
+	@Path("/{id}")
 	@Consumes({MediaType.APPLICATION_JSON})
 	public void addStudent(Student student) {
 		studentList.add(student);
